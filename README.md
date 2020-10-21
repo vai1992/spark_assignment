@@ -30,14 +30,14 @@ Dare Devils is changed to Delhi Capitals.
     ├── input
     |   └── IPL_SCHEDULE_2008_2020.csv            # Raw Input File for which Points table needs to be Presented
     ├── output
-    |   └── part-00000-f78d7e1b-c98e-4058-9735-1f56827a784b-c000.csv       # End Result
+    |   └── part-00000-e563efb2-342e-4bb2-8d55-df86ae9f3bf6-c000.csv       # End Result
     ├── project
     |   └── total_score.py                        # Main Python to process the input file and give output of Points Table
 
 
 ## How to run the program
 
-Run the following command
+Run the following command from the root folder spark_assignment
 ```
 $SPARK_HOME/bin/spark-submit project/total_score.py
 ```
